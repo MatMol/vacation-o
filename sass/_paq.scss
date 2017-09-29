@@ -1,0 +1,15 @@
+.paq{
+	.container-fluid{
+		.jumbotron{
+			background-color: white;
+			padding: 0;
+
+			h2{
+				font-family: $secun;
+				font-weight: $bold;
+				font-size: 30px;
+				color: $color-gris;
+			}
+		}
+	}
+}

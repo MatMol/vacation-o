@@ -1,0 +1,22 @@
+.opn{
+	h2{
+		color: $color-gris;
+		font-family: $secun;
+		padding: 10px;
+		position: relative;
+		bottom: 5px;
+	}
+
+	.container-fluid{
+		.row{
+			.col-md-8{
+				blockquote{
+					p{
+						font-family: $secun;
+						color: $color-black;
+					}
+				}
+			}
+		}
+	}
+}

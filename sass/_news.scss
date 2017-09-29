@@ -1,0 +1,51 @@
+.news{
+	.container-fluid{
+		.row{
+			.well{
+				background-color: $color-white;
+				border-color: none;
+				border-radius: 1%;
+
+				h3{
+					color: $color-gris;
+					font-family: $secun;
+					font-weight: $bold;
+					position: relative;
+					bottom: 10px;
+				}
+
+				.thumbnail{
+					&:hover{
+						border-color: $color-prim;
+					}
+				}
+
+				p{
+					color: $color-gris;
+					font-family: $titulo;
+					font-size: 18px;
+
+					span{
+						color: $color-prim;
+					}
+				}
+
+				a{
+					text-decoration: none;
+					color: $color-gris;
+					font-family: $secun;
+					font-size: 19px;
+					&:hover{
+						color: $color-prim;
+					}
+				}
+			}
+		}
+	}
+}
+
+.nota{
+	padding: 10px;
+	font-family: $secun;
+	color: $color-gris;
+}

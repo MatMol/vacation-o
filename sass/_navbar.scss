@@ -1,0 +1,49 @@
+.logo{
+    height: 70px;
+    position: relative;
+    bottom: 24px;
+}
+
+.navbar{
+	margin-bottom: 0;
+	background-color: white;
+	border-color: white;
+	.navbar-nav{
+		li{
+			a{
+				font-family: $secun;
+				font-size: 18px;
+				color: $color-gris;
+				font-weight: $bold;
+				&:hover{
+					color: $color-prim;
+				}
+			}
+		}
+
+		.dropdown-menu{
+			li{
+				a{
+					color: $color-prim;
+					font-weight: $normal;
+				}
+			}
+		}
+	}
+	.navbar-toggle{
+		border: none;
+	}
+
+	.navbar-right{
+		.btn{
+			color: $color-gris;
+			font-weight: $bold;
+
+			&:hover{
+				background-color: $color-prim;
+				color: $color-white;
+				border-color: $color-prim;
+			}
+		}
+	}
+}
