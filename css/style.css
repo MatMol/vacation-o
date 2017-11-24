@@ -234,5 +234,8 @@
     position: relative;
     bottom: 10px;
     right: 120px; } }
+@media (min-width 1600px) {
+  .header .container {
+    background-size: cover; } }
 
 /*# sourceMappingURL=style.css.map */
