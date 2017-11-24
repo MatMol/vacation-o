@@ -42,4 +42,12 @@
 			}
 		}
 	}
-}				
+}	
+
+@media (min-width: 1600px){
+	.header{
+		.container{
+			background-size: cover;
+		}
+	}
+}
